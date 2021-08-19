@@ -1,6 +1,6 @@
 {
   "name": "vue-emoji-button",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
 
   "main": "dist/vue-emoji-button.ssr.js",
