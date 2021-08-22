@@ -12,18 +12,16 @@ export default {
     },
     emoji: {
       type: String,
-      default: "face_with_tears_of_joy",
     },
   },
   data() {
     return{
-      emojiIcon: null,
+      emojiIcon: "https://emojiapi.dev/api/v1/sparkles.svg"
     };
   },
-  mounted(){
+  beforeUpdate(){
     const emojiName = this.$props.emoji
      this.emojiIcon = `https://emojiapi.dev/api/v1/${emojiName}.svg`
-    console.log(this.$props.emoji);
   },
   methods:{
     

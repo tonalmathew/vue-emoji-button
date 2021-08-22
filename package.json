@@ -1,6 +1,6 @@
 {
   "name": "vue-emoji-button",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "dist/vue-emoji-button.ssr.js",
   "browser": "dist/vue-emoji-button.esm.js",
@@ -13,6 +13,7 @@
   "sideEffects": false,
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
+    "dev": "vue-cli-service serve example/index.js",
     "prebuild": "rimraf ./dist",
     "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
     "build:ssr": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
