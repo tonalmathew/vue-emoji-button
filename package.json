@@ -1,5 +1,5 @@
 {
-  "name": "vue-emoji-button",
+  "name": "@tonalmathew/vue-emoji-button",
   "version": "1.1.1",
   "description": "",
   "main": "dist/vue-emoji-button.ssr.js",
@@ -10,6 +10,9 @@
     "dist/*",
     "src/**/*.vue"
   ],
+  "repository": {
+    "url": "git://github.com/tonalmathew/vue-emoji-button.git"
+  },
   "sideEffects": false,
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
